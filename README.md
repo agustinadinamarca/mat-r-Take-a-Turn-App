@@ -5,6 +5,8 @@ This is an app for use by supermarkets during the COVID-19 pandemic to prevent l
 
 **Programming Language:** mat|r script
 
+**Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
+
 <img src="Images/im-1.jpg" width="25%" height="25%">
 <img src="Images/im-2.jpg" width="25%" height="25%">
 <img src="Images/im-3.jpg" width="25%" height="25%">
