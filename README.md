@@ -5,6 +5,10 @@ This is an app for use by supermarkets during the COVID-19 pandemic to prevent l
 
 **Programming Language:** mat|r script
 
+**Test App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the following QR code with mat|r Viewer:
+
+<img src="Images/qr-taketurn.png" width="20%" height="20%">
+
 **Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
 
 <img src="Images/im-1.jpg" width="25%" height="25%">
