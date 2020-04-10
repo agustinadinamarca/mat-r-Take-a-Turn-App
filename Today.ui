@@ -1,0 +1,18 @@
+<layout alpha="1" backgroundColor="#FFFFFFFF" fontFamily="Roboto, sans-serif" paddingRight="18" paddingTop="18" paddingBottom="18" paddingLeft="18" name="Today">
+    <datasource type="Today" name="today"/>
+    <navigationBar title="Today" hideBackButton="false">
+        <leftButtons/>
+        <rightButtons/>
+    </navigationBar>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#F0591DFF" fontFamily="Roboto-Bold" fontSize="22" textAlignment="center" text="Date" bind="today.date"/>
+    <label alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" fontSize="16" fontFamily="Roboto-Bold" textAlignment="left" bind="today.numDisponiblesToday"/>
+    <label wpercentage="1" alpha="1" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#3d464d" fontSize="16" fontFamily="Roboto-Regular" textAlignment="left" text="Select a time:"/>
+    <select wpercentage="1" borderColor="#cccccc" borderWidth="1" cornerRadius="3" alpha="1" backgroundColor="#ffffff" fontFamily="Roboto-Regular" fontSize="14" marginTop="0" marginBottom="8" marginLeft="0" marginRight="0" paddingRight="8" paddingTop="8" paddingBottom="8" paddingLeft="8" textColor="#3d464d" bind="today.turns"/>
+    <button wpercentage="0.4" height="40" textAlignment="center" cornerRadius="3000" alpha="1" backgroundColor="#F0591DFF" fontSize="15" marginTop="4" marginBottom="8" paddingRight="8" paddingTop="8" paddingBottom="8" paddingLeft="8" textColor="#ffffff" selfAlignment="center" fontFamily="Roboto-Regular" text="Take Turn">
+        <selectedState/>
+        <highlightedState/>
+        <event on="TapEvent">
+            <action type="RunRuleAction" ruleContext="MainContext" ruleName="takeTurn"/>
+        </event>
+    </button>
+</layout>
